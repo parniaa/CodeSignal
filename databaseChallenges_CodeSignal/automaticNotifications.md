@@ -34,6 +34,7 @@ The only three users who should get notifications are luckygirl, todayhumor, and
 
     [execution time limit] 10 seconds (mysql)
 
+Solution:
 
 
 CREATE PROCEDURE automaticNotifications()
