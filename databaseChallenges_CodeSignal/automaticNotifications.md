@@ -38,7 +38,7 @@ Solution:
 
 
 CREATE PROCEDURE automaticNotifications()
-    SELECT email
+  SELECT email
     FROM users
     WHERE lower(role) NOT IN ("admin", "premium")
 
